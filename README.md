@@ -39,11 +39,15 @@ reasons:
 
 - `RedditNews.csv` and `DJIA.csv`: from the Kaggle Daily News for Stock Market
   Prediction dataset (aaron7sun/stocknews).
-- `WordsFinal.csv`: one word per row, the candidate vocabulary.
+- `WordsFinal.csv`: one word per row, the candidate vocabulary. Course-provided
+  derived file (built from the Reddit headlines); available through the course
+  rather than a public download.
 - `WordFreqFinal.csv`: whitespace-delimited (day_index, word_index, count) triples
-  aligned to the vocabulary and trading days.
+  aligned to the vocabulary and trading days. Same course-provided provenance.
 
-Download the Kaggle dataset and place the files in the repository root before running.
+A full rerun needs all four files in the repository root: the two Kaggle files
+plus the two course-provided word files. Checking the quoted numbers needs zero
+data: every figure appears in a saved cell output or the committed cell source.
 
 ## Author
 
